@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     credentials: true,
-    origin: "https://ecoshop-app.netlify.app",
+    origin: "http://localhost:3000",
   })
 );
 app.use(
